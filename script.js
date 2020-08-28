@@ -26,4 +26,13 @@ $(document).ready( function() {
         }
       });
     });
+
+    $('.reset').click(function(){
+      var quadrato= $('.quadrato')
+      if(quadrato != ''){
+        quadrato.text('');
+        quadrato.removeClass('green');
+        quadrato.removeClass('yellow')
+      }
+    })
   }); 
