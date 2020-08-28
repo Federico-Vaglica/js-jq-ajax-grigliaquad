@@ -16,7 +16,12 @@
     width:150px;
     height:150px;
     border: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
 
 .yellow {
     background-color: yellow;
